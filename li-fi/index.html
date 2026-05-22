@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
 
 <head>
     <title> BJJ PATH </title>
@@ -21,67 +21,110 @@
     <p>
         O jiujitsu segue um sistema de graduação de faixa, que se inicia da faixa branca ate a faixa vermelha.
         Sua evolução é exibida para os outros colegas com a adição de divisas na sua ponteira de faixa; são necessarias
-        4 divivas para, após avaliaçã do seu professor, o aluno estar
-        autorizado a mudar sua faixa; essa regra se aplica da faixa branca até a faixa preta.
+        4 divivas para, após avaliaçã do seu professor, o aluno estar autorizado a mudar sua faixa;
+        essa regra se aplica da faixa branca até a faixa preta.
         Existe um tempo minimo que o aluno deve permanecer nas faixas antes de estar apto para graduação.
     </p>
 
 
 
-    <h3> Caracteristicas do LI-FI</h3>
+    <h3> Vantagens do Jiu-Jitsu </h3>
     <ol>
-        <li>Usa a luz para transmitir dados</li>
-        <li>Alta velocidade de transmissão</li>
-        <li>Funciona em alcance limitado</li>
+        <li> conhecimento de defesa pessoal</li>
+        <li> melhora no condicionamento fisico </li>
+        <li> melhora na concentração </li>
     </ol>
 
-    <h3> Vantagens do LI-FI </h3>
-    <ul>
-        <li>Alta velocidade de transmissão</li>
-        <li>Segurança aprimorada</li>
-        <li>Menos interferência</li>
-    </ul>
+    <p>
+        Existem duas federações que regulamentam o
+        jiujitsu no mundo: CBJJ (Confederação Brasileira de Jiu-Jitsu) e IBJJF (Federação Internacional de Jiu-Jitsu)
+    </p>
 
-    <table border="1">
+    <p> A seguir, apresentamos uma comparação basica entrque os 3 tipos de artes marciais: Jiu-Jitsu, Judo e Boxe
+        destacando suas principais caracteristicas e diferenças
+    </p>
+
+    <table border="2">
         <tr>
             <th>Característica</th>
-            <th>LI-FI</th>
-            <th>Wi-Fi</th>
+            <th>JIU-JITSU</th>
+            <th>JUDO</th>
+            <th>BOXE</th>
         </tr>
         <tr>
-            <td>Meio de Transmissão</td>
-            <td>Luz LED</td>
-            <td>Radiofrequência</td>
+            <td>Foco principal</td>
+            <td>finalizações e controle de solo </td>
+            <td>projeções de quedas </td>
+            <td>Golpes e socos </td>
         </tr>
         <tr>
-            <td>Velocidade Máxima</td>
-            <td>200.000 GHz</td>
-            <td>5 GHz</td>
+            <td>Tipo de contato</td>
+            <td>luta no chão </td>
+            <td> Em pé </td>
+            <td> Em pé </td>
         </tr>
         <tr>
-            <td>Alcance</td>
-            <td>Limitado a linha de visão</td>
-            <td>Abrange áreas maiores</td>
+            <td> origem </td>
+            <td>japão </td>
+            <td> japão </td>
+            <td> inglaterra </td>
         </tr>
     </table>
 
     <p>
-        <img src=" ../img/li-fi_img.png" alt="Ilustração do funcionamento do Li-Fi" />
+        <img src="../img/sistemadegraduacaojj.png" alt="Ilustração do funcionamento Sistema de Graduação" />
     </p>
 
     <p>
-        Saiba mais sobre Li-Fi no <a href="https://www.iberdrola.com/quem-somos/nosso-modelo-inovacao/tecnologia-lifi"
-            target="_blank"> site oficial.</a>
+        Saiba mais sobre as confederações no link a seguir: <a href="/https://cbjj.com.br//" target="_blank"> site
+            oficial.</a>
     </p>
 
-</body>
+    <h3>
+        Confira os dias disponiveis na agenda abaixo para marcar sua aula experimental em uma de nossas academias
+        parceiras.
+    </h3>
 
-<!-- 
-# minimo 02 paragrafos - check
-# minimo 01 lista,ordenada ou n - check
-# tabela com 04 colunas e 03 linhas.
-# inserção de uma imagem com o atributo alt(explicar a importancia do alt para acessibilidade).
-# minimo 01 link para um site externo.  
--->
+    <table border="2">
+        <tr>
+            <th>Dias</th>
+            <th>publico alvo </th>
+            <th>nivel</th>
+            <th>vagas</th>
+
+        </tr>
+        <tr>
+            <td rowspan="2"> 10/06/2026 </td>
+            <td>JJ para iniciantes</td>
+            <td>iniciante </td>
+            <td>08</td>
+        </tr>
+        <tr>
+            <td>Defesa pessoal</td>
+            <td>intermediario</td>
+            <td>09</td>
+        </tr>
+        <tr>
+            <td colspan="4" alingn="center"> <strong> Aviso: vagas limitadas </strong> </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <form action="agendar" method="post">
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="nome" required>
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="dia">Dia:</label>
+        <input type="date" id="dia" name="dia" required>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+
+</body>
 
 </html>
