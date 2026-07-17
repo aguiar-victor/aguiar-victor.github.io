@@ -19,3 +19,42 @@ fieldset {
 footer {
     background-color: #e8f5e9; /* Um fundo verde bem clarinho */
 }
+
+
+.titulo-contato {
+    text-align: center; /* Centraliza o título "Fale Conosco" */
+    color: #0c0c0c; /* Mantém a consistência com a identidade visual */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+}
+/* 5. adicionando estilo para os campos do formulário */
+.caixa-contato {
+    background-color: #f5f5f5;
+    border: 2px solid #2e7d32;
+    padding: 20px; 
+    max-width: 500px;/*Restringe o tamanho maximo do forumlario */
+    margin: 0 auto 30px auto; /* Centraliza a caixa na tela e adiciona 30px de espaço abaixo*/
+}
+
+.caixa-contato label,
+.caixa-contato input,
+.caixa-contato textarea {
+    display: block; /* Força cada elemento a ocupar sua própria linha */
+    width: 100%;    /* Faz os inputs e textareas preencherem toda a largura interna da caixa */
+    margin-bottom: 10px; /* Cria um pequeno espaçamento inferior entre os campos */
+}
+
+.caixa-contato label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#btn-enviar {
+    display: block;/* Transforma o botão em bloco para aplicar margens */
+    width: 100%;/* Faz o botão ocupar toda a largura do formulário */
+    background-color: #2e7d32; 
+    color: #ffffff;            
+    border: none;              
+    padding: 12px;        
+    cursor: pointer;           
+    font-weight: bold;
+}
